@@ -1,0 +1,36 @@
+{
+  "name": "automation-interview",
+  "version": "1.0.0",
+  "description": "Scaffold for automation interviews",
+  "main": "index.js",
+  "jest": {
+    "testURL": "http://www.jcrew.com",
+    "globals": {
+      "jcrew": {
+        "global": {}
+      }
+    }
+  },
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstef/automation-interview.git"
+  },
+  "author": "Steven Stef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sstef/automation-interview/issues"
+  },
+  "homepage": "https://github.com/sstef/automation-interview#readme",
+  "dependencies": {
+    "chromedriver": "^2.44.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "jest-diff": "^23.6.0",
+    "jest-each": "^23.6.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
